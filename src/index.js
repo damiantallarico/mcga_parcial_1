@@ -3,17 +3,11 @@ const mongoose = require('mongoose') //Guarda una variable con el acceso la libr
 const products = require('../data/products.json') //Array de objetos
 const router = require('./routes/index') // Rutas creadas
 
-// console.log(process.env.PORT);
-// console.log(process.env.DATABASE_URL);
-// console.debug(products);
-
 const express = require('express') //Guarda una variable con el acceso la librería Express
 
 const app = express(); //Instancia un objeto Express en app y levanta el proceso del servidor
 
 app.use(express.urlencoded()); // Permite obtener el cuerpo del POST via req.body
-//app.use(express.json()); // Permite obtener el cuerpo del POST via req.body
-//app.use(express.static("public"));
 
 app.use(router); // Le dice a Express que use el Router
 

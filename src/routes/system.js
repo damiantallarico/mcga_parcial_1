@@ -8,10 +8,4 @@ router.get('/',(req, res)=>{
     })
 })
 
-// router.get('/test',(req, res)=>{
-//     return res.status(500).send({
-//         'Status':'error'
-//     })
-// })
-
 module.exports = router // Habilito la importación en otros lugares.
