@@ -33,3 +33,51 @@ Debe contar al menos con 5 commits, todos realizados por el dueño del repositor
 
 La cuenta de MongoAtlas utilizada para la base de datos debe ser del alumno.
 Es necesario tener acceso a la base de datos para visualizarla al momento de exponer el parcial.
+
+------------------------------------------------*********--------------------------------------------------
+
+Desarrollo del Parcial:
+
+En primer instancia se instaló en la pc el paquete Node.js
+
+La estructura utilizada para resolver la problemática planteada es:
+
+MCGA_PARCIAL_1
+	|__ src
+		|__ controllers
+			|__ products.js
+		|__ models
+			|__ Products.js
+		|__ routers
+			|__ index.js
+			|__ products.js
+			|__ system.js
+		|__ index.js
+	|__ .env
+	|__ .gitignore
+	|__ package-lock.json
+	|__ package.json
+	|__ Readme.md
+
+Dentro de la carpeta principal “MCGA_PARCIAL_1” encontramos lo siguiente:
+
+	src —> Esta es una carpeta contenedora. Aquí encontraremos:
+		|__ Una Controladora, un Modelo, un Router, y un Index.js principal.
+
+	.env —> Este es un archivo con información del environment de nuestro proyecto. En este caso contiene los datos de conexión a nuestra base de datos, esto es: la URL y el Puerto de conexión.
+
+	.gitignore —> Este es un archivo con información sobre lo que queremos ignorar a la hora de sincronizar nuestro proyecto con GitHub	. En este caso, ignoramos la carpeta node_modules que contiene todas las librerías que tenemos instaladas, y también los datos de environment.
+
+	packages-lock.json —> Este es un archivo generado automáticamente cuando se instalan paquetes o dependencias en el proyecto. Su finalidad es mantener un historial de los paquetes instalados y optimizar la forma en que se generan las dependencias del proyecto y los contenidos de la carpeta node_modules/ .
+
+	package.json —> Este es un archivo generado automáticamente con la metadata del proyecto actual y dependencias.
+
+	Readme.md —> Este archivo contiene las consignas del parcial y la estructura de lo desarrollado.
+
+	Dentro de la capeta “src” tenemos las siguientes:
+
+		|__ controllers: Esta es una carpeta que maneja toda la lógica detrás de nuestro proyecto.
+		|__ models: Esta carpeta contiene la estructura de los documentos que se van a guardar en la base de datos.
+		|__ routers: Esta carpeta contiene un middleware router de Express y los archivos con las rutas que se configuran en el router.
+
+FIN.
