@@ -43,7 +43,7 @@ En primer instancia se instaló en la pc el paquete Node.js
 La estructura utilizada para resolver la problemática planteada es:
 
 MCGA_PARCIAL_1
-	|__ src
+    |__ src
         |__ controllers
             |__ products.js
 		|__ models
