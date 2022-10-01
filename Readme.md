@@ -44,8 +44,8 @@ La estructura utilizada para resolver la problemática planteada es:
 
 MCGA_PARCIAL_1
 	|__ src
-		|__ controllers
-			|__ products.js
+        |__ controllers
+            |__ products.js
 		|__ models
 			|__ Products.js
 		|__ routers
