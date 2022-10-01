@@ -43,20 +43,35 @@ En primer instancia se instaló en la pc el paquete Node.js
 La estructura utilizada para resolver la problemática planteada es:
 
 MCGA_PARCIAL_1
+
     |__ src
+
         |__ controllers
+
             |__ products.js
+
 		|__ models
+
 			|__ Products.js
+
 		|__ routers
+
 			|__ index.js
+
 			|__ products.js
+
 			|__ system.js
+
 		|__ index.js
+
 	|__ .env
+
 	|__ .gitignore
+
 	|__ package-lock.json
+
 	|__ package.json
+    
 	|__ Readme.md
 
 Dentro de la carpeta principal “MCGA_PARCIAL_1” encontramos lo siguiente:
